@@ -27,6 +27,12 @@
     <artifactId>ch.sbb.polarion.extension.diff-tool</artifactId>
     <version>5.0.0</version>
 </dependency>
+	    <dependency>
+    <groupId>io.vertx</groupId>
+    <artifactId>vertx-docgen</artifactId>
+    <version>3.5.1</version>
+</dependency>
+
 
         
     </dependencies>
