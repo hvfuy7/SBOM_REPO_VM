@@ -4,10 +4,10 @@
 	 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>  
     <groupId>org.exampleapps.greatbig</groupId>
-    <artifactId>great-big-example-application</artifactId>
+    <artifactId>sbom-example</artifactId>
     <version>0.0.0</version>
-    <packaging>war</packaging>
-    <name>Great Big Example Application</name>
+    <packaging>jar</packaging>
+    <name>SBOM Example</name>
 
     <properties>
        <maven.compiler.source>1.8</maven.compiler.source>
@@ -18,15 +18,16 @@
 
     <dependencies>
         <dependency>
-    <groupId>io.github.jhipster</groupId>
-    <artifactId>jhipster-framework</artifactId>
-    <version>3.9.1</version>
+    <groupId>ch.sbb.polarion.extensions</groupId>
+    <artifactId>ch.sbb.polarion.extension.generic.app</artifactId>
+    <version>8.0.0</version>
 </dependency>
         <dependency>
-    <groupId>io.dropwizard.metrics</groupId>
-    <artifactId>metrics-logback15</artifactId>
-    <version>4.2.30</version>
+    <groupId>ch.sbb.polarion.extensions</groupId>
+    <artifactId>ch.sbb.polarion.extension.diff-tool</artifactId>
+    <version>5.0.0</version>
 </dependency>
+
         
     </dependencies>
     <build>
